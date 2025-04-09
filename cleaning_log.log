@@ -1,0 +1,20 @@
+2025-04-09 12:13:01,733 - Original dataset shape: (541909, 8)
+2025-04-09 12:13:17,077 - Original dataset shape: (541909, 8)
+2025-04-09 12:14:32,797 - Missing values: {'InvoiceNo': 0, 'StockCode': 0, 'Description': 1454, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 135080, 'Country': 0}
+2025-04-09 12:14:33,504 - Shape after handling missing values: (406829, 8)
+2025-04-09 12:14:34,659 - Dropped 0 positive qty cancellations and 0 negative qty non-cancellations
+2025-04-09 12:17:26,105 - Missing values: {'InvoiceNo': 0, 'StockCode': 371020, 'Description': 0, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 0, 'Country': 0, 'IsCancelled': 0}
+2025-04-09 12:17:26,677 - Shape after handling missing values: (35809, 9)
+2025-04-09 12:17:26,786 - Dropped 0 positive qty cancellations and 0 negative qty non-cancellations
+2025-04-09 12:17:26,802 - Dropped 1774 non-product transactions
+2025-04-09 12:17:26,811 - Dropped 2384 outliers in Quantity using IQR
+2025-04-09 12:17:26,818 - Dropped 1458 outliers in UnitPrice using IQR
+2025-04-09 12:17:26,822 - Final cleaned shape: (30192, 9)
+2025-04-09 12:26:51,522 - Original dataset shape: (541909, 8)
+2025-04-09 12:30:51,311 - Missing values: {'InvoiceNo': 0, 'StockCode': 0, 'Description': 1454, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 135080, 'Country': 0}
+2025-04-09 12:30:52,497 - Shape after handling missing values: (406829, 8)
+2025-04-09 12:35:21,469 - Dropped 0 positive qty cancellations and 0 negative qty non-cancellations
+2025-04-09 12:40:31,768 - No inconsistent cancellations found
+2025-04-09 12:42:46,901 - Dropped 1774 non-product transactions
+2025-04-09 12:44:26,322 - Dropped 26628 outliers in Quantity using IQR
+2025-04-09 12:44:26,363 - Dropped 34319 outliers in UnitPrice using IQR
