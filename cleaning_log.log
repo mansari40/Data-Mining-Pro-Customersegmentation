@@ -18,3 +18,4 @@
 2025-04-09 12:42:46,901 - Dropped 1774 non-product transactions
 2025-04-09 12:44:26,322 - Dropped 26628 outliers in Quantity using IQR
 2025-04-09 12:44:26,363 - Dropped 34319 outliers in UnitPrice using IQR
+2025-04-09 12:45:22,468 - Shape after removing zero/negative UnitPrice: (344084, 9)
