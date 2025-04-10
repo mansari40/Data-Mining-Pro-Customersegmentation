@@ -56,3 +56,23 @@
 2025-04-10 04:31:16,324 - Dropped 0 positive qty cancellations and 1239 negative qty non-cancellations
 2025-04-10 04:31:19,859 - Shape after removing zero/negative UnitPrice: (539392, 10)
 2025-04-10 04:31:48,510 - Resolved 9 customers with multiple countries
+2025-04-10 05:12:03,943 - Original dataset shape: (541909, 8)
+2025-04-10 05:12:34,692 - Missing values before handling: {'InvoiceNo': 0, 'StockCode': 0, 'Description': 1454, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 135080, 'Country': 0}
+2025-04-10 05:12:35,332 - Shape after handling missing values: (541797, 9)
+2025-04-10 05:13:13,282 - Dropped 0 positive qty cancellations and 1239 negative qty non-cancellations
+2025-04-10 05:13:15,716 - Shape after removing zero/negative UnitPrice: (539392, 10)
+2025-04-10 05:13:33,217 - Resolved 9 customers with multiple countries
+2025-04-10 05:21:31,048 - Original dataset shape: (541909, 8)
+2025-04-10 05:26:03,017 - Missing values before handling: {'InvoiceNo': 0, 'StockCode': 0, 'Description': 1454, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 135080, 'Country': 0}
+2025-04-10 05:26:03,695 - Shape after handling missing values: (541797, 9)
+2025-04-10 05:26:10,110 - Dropped 0 positive qty cancellations and 1239 negative qty non-cancellations
+2025-04-10 05:26:17,521 - Dropped 2759 non-product transactions
+2025-04-10 05:26:46,399 - Shape after removing zero/negative UnitPrice: (536649, 10)
+2025-04-10 05:28:55,363 - Resolved 9 customers with multiple countries
+2025-04-10 05:44:25,461 - Original dataset shape: (541909, 8)
+2025-04-10 05:44:35,550 - Missing values before handling: {'InvoiceNo': 0, 'StockCode': 0, 'Description': 1454, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 135080, 'Country': 0}
+2025-04-10 05:44:36,180 - Shape after handling missing values: (541797, 9)
+2025-04-10 05:44:42,463 - Dropped 0 positive qty cancellations and 1239 negative qty non-cancellations
+2025-04-10 05:44:45,299 - Dropped 2759 non-product transactions
+2025-04-10 05:44:48,018 - Shape after removing zero/negative UnitPrice: (536649, 10)
+2025-04-10 05:45:03,813 - Resolved 9 customers with multiple countries
