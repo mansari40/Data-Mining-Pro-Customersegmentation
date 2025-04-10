@@ -47,3 +47,12 @@
 2025-04-09 20:39:59,903 - Shape after removing zero/negative UnitPrice: (539392, 10)
 2025-04-09 20:48:31,086 - Shape after removing zero/negative UnitPrice: (539392, 10)
 2025-04-09 20:48:43,741 - Shape after removing zero/negative UnitPrice: (539392, 10)
+2025-04-10 04:27:43,680 - Resolved 9 customers with multiple countries
+2025-04-10 04:29:26,590 - Resolved 0 customers with multiple countries
+2025-04-10 04:30:00,953 - Resolved 0 customers with multiple countries
+2025-04-10 04:30:54,555 - Original dataset shape: (541909, 8)
+2025-04-10 04:31:04,828 - Missing values before handling: {'InvoiceNo': 0, 'StockCode': 0, 'Description': 1454, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 135080, 'Country': 0}
+2025-04-10 04:31:06,043 - Shape after handling missing values: (541797, 9)
+2025-04-10 04:31:16,324 - Dropped 0 positive qty cancellations and 1239 negative qty non-cancellations
+2025-04-10 04:31:19,859 - Shape after removing zero/negative UnitPrice: (539392, 10)
+2025-04-10 04:31:48,510 - Resolved 9 customers with multiple countries
