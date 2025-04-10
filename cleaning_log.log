@@ -19,3 +19,31 @@
 2025-04-09 12:44:26,322 - Dropped 26628 outliers in Quantity using IQR
 2025-04-09 12:44:26,363 - Dropped 34319 outliers in UnitPrice using IQR
 2025-04-09 12:45:22,468 - Shape after removing zero/negative UnitPrice: (344084, 9)
+2025-04-09 19:19:39,019 - Original dataset shape: (541909, 8)
+2025-04-09 19:20:56,525 - Missing values: {'InvoiceNo': 0, 'StockCode': 0, 'Description': 1454, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 135080, 'Country': 0}
+2025-04-09 19:20:57,119 - Shape after handling missing values: (406829, 8)
+2025-04-09 19:21:07,967 - Missing values: {'InvoiceNo': 0, 'StockCode': 0, 'Description': 0, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 0, 'Country': 0}
+2025-04-09 19:21:08,583 - Shape after handling missing values: (406829, 8)
+2025-04-09 19:21:48,626 - Original dataset shape: (541909, 8)
+2025-04-09 19:58:48,671 - Missing values before handling: {'InvoiceNo': 0, 'StockCode': 0, 'Description': 1454, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 135080, 'Country': 0}
+2025-04-09 19:58:49,308 - Shape after handling missing values: (541909, 9)
+2025-04-09 19:59:24,078 - Missing values before handling: {'InvoiceNo': 0, 'StockCode': 0, 'Description': 0, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 0, 'Country': 0, 'IsGuest': 0}
+2025-04-09 19:59:25,439 - Shape after handling missing values: (541909, 9)
+2025-04-09 20:04:04,330 - Original dataset shape: (541909, 8)
+2025-04-09 20:18:38,573 - Missing values before handling: {'InvoiceNo': 0, 'StockCode': 0, 'Description': 1454, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 135080, 'Country': 0}
+2025-04-09 20:18:39,209 - Shape after handling missing values: (541797, 9)
+2025-04-09 20:23:32,692 - Dropped 0 positive qty cancellations and 1239 negative qty non-cancellations
+2025-04-09 20:30:39,382 - Dropped 2759 non-product transactions
+2025-04-09 20:33:57,621 - Dropped 0 non-product transactions
+2025-04-09 20:34:08,388 - Dropped 0 non-product transactions
+2025-04-09 20:36:26,776 - No inconsistent cancellations found
+2025-04-09 20:36:32,078 - No inconsistent cancellations found
+2025-04-09 20:36:33,556 - No inconsistent cancellations found
+2025-04-09 20:36:35,392 - No inconsistent cancellations found
+2025-04-09 20:37:16,512 - Original dataset shape: (541909, 8)
+2025-04-09 20:37:37,405 - Missing values before handling: {'InvoiceNo': 0, 'StockCode': 0, 'Description': 1454, 'Quantity': 0, 'InvoiceDate': 0, 'UnitPrice': 0, 'CustomerID': 135080, 'Country': 0}
+2025-04-09 20:37:38,069 - Shape after handling missing values: (541797, 9)
+2025-04-09 20:37:48,413 - Dropped 0 positive qty cancellations and 1239 negative qty non-cancellations
+2025-04-09 20:39:59,903 - Shape after removing zero/negative UnitPrice: (539392, 10)
+2025-04-09 20:48:31,086 - Shape after removing zero/negative UnitPrice: (539392, 10)
+2025-04-09 20:48:43,741 - Shape after removing zero/negative UnitPrice: (539392, 10)
